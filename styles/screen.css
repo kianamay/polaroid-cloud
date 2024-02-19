@@ -21,7 +21,7 @@ header h1 {
     font-weight:bold;
 }
 main {
-    background: url('/images/polaroid-masthead.png') no-repeat center 100px;
+    background: url('/images/polaroid-shadow.png') no-repeat center 100px;
     margin: 0 auto;
     width: 900px;
 }
@@ -36,7 +36,7 @@ main {
     margin: 0;
 }
 .details ul li {
-    list-style-type: none;
+    list-style: none;
     margin: 10px;
     padding: 15px 65px ;
     text-align: left;
