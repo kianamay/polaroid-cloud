@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 :root {
     --main-bg-color: #e9e9e9;
@@ -18,23 +19,27 @@ header {
 }
 header h1 {
     margin: 20px;
-    font-weight:bold;
+    font-weight: 700px;
 }
 main {
-    background: url('/images/polaroid-shadow.png') no-repeat center 100px;
+    background: url('/images/polaroid-2.png') no-repeat center 250px;
+    background-size: 800px;
     margin: 0 auto;
-    width: 900px;
 }
+
 .hero{
     text-align: center;
     min-height: 800px;
 }
+
 .hero h2 {
+    
     font-size: 9em;
     line-height: 1em;
     text-transform: uppercase;
     margin: 0;
 }
+
 .details ul li {
     list-style: none;
     margin: 10px;
