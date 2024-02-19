@@ -45,16 +45,16 @@ main {
 }
 
 .details ul li.qr {
-    background: url('/images/qrcode-solid\ 1.svg') no-repeat center left;
+    list-style-image: url('/images/qrcode-solid\ 1.svg') no-repeat center left;
 }
 .details ul li.wifi {
-    background: url('/images/wifi-solid\ 1.svg') no-repeat center left;
+    list-style-image: url('/images/wifi-solid\ 1.svg') no-repeat center left;
 }
 .details ul li.cloud {
-    background: url('/images/cloud-arrow-up-solid\ 1.svg') no-repeat center left;
+    list-style-image: url('/images/cloud-arrow-up-solid\ 1.svg') no-repeat center left;
 }
 .details ul li.pic {
-    background: url('/images/photo-film-solid\ 1.svg') no-repeat center left;
+    list-style-image: url('/images/photo-film-solid\ 1.svg') no-repeat center left;
 }
 .details {
     text-align: center;
