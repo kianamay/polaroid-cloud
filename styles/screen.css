@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 :root {
     --main-bg-color: #e9e9e9;
@@ -19,11 +18,11 @@ header {
 }
 header h1 {
     margin: 20px;
-    font-weight: 700px;
 }
+
 main {
-    background: url('/images/polaroid-2.png') no-repeat center 250px;
-    background-size: 800px;
+    background: url('/images/polaroid-2.png') no-repeat center 200px;
+    background-size: 950px;
     margin: 0 auto;
 }
 
@@ -40,6 +39,10 @@ main {
     margin: 0;
 }
 
+p{
+    line-height: 1.4em;
+}
+
 .details ul li {
     list-style: none;
     margin: 10px;
@@ -50,17 +53,23 @@ main {
 }
 
 .details ul li.qr {
-    list-style-image: url('/images/qrcode-solid\ 1.svg') no-repeat center left;
+    background: url('/images/qrcode-solid.svg') no-repeat center left;
+    background-size: 30px;
 }
+   
 .details ul li.wifi {
-    list-style-image: url('/images/wifi-solid\ 1.svg') no-repeat center left;
+    background: url('/images/wifi-solid.svg') no-repeat center left;
+    background-size: 30px;
 }
 .details ul li.cloud {
-    list-style-image: url('/images/cloud-arrow-up-solid\ 1.svg') no-repeat center left;
+    background: url('/images/cloud-arrow-up-solid.svg') no-repeat center left;
+    background-size: 30px;
 }
 .details ul li.pic {
-    list-style-image: url('/images/photo-film-solid\ 1.svg') no-repeat center left;
+    background: url('/images/photo-film-solid.svg') no-repeat center left;
+    background-size: 30px;
 }
+
 .details {
     text-align: center;
 }
